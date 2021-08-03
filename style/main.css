@@ -1,0 +1,72 @@
+.wrapper div:hover {
+  opacity: 70%;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  opacity: 70%;
+  background-color: (0,0,0,5.);
+  display: block;
+  opacity: 100%;
+  -webkit-transition:  .60s;
+  -o-transition:  .60s;
+  transition: .60s;
+}
+.wrapper div:hover {
+  opacity: 50%;
+}
+.wrapper {
+  margin: auto;
+  top: 100px;
+  width: 1200px;
+  height: 400px;
+  position: relative;
+  }
+  .a {
+    background-color: #d33939;
+    left: 500px;
+    top: 50px;
+    width: 200px;
+    z-index: 6;
+  }
+  .b {
+    background-color: #b12d85;
+    left: 400px;
+    top: 100px;
+    width: 400px;
+    z-index: 5;
+  }
+  .c {
+    background-color: #253658;
+    left: 300px;
+    top: 150px;
+    width: 600px;
+    z-index: 4;
+  }
+  .d {
+    background-color: #397474;
+    left: 200px;
+    top: 200px;
+    width: 800px;
+    z-index: 3;
+  }
+  .e {
+    background-color: #e24b0f;
+    left: 100px;
+    right: 100px;
+    top: 250px;
+    width: 1000px;
+    z-index: 2;
+  }
+  .f {
+    background-color: #474341;
+    left: 0px;
+    bottom: 0px;
+    right: 400px;
+    width: 1200px;
+    z-index: 1;
+  }
+ 
